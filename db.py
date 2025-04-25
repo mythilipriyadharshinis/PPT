@@ -24,6 +24,7 @@ def fetch_data_from_sp(master_client_id, booking_month, client_id, is_client_lev
           cursor.execute("EXEC GetBookingStatistics_clientwise ?, ?, ?", master_client_id, booking_month, client_id)
         
         else:
+            
           
           cursor.execute("EXEC GetBookingStatistics ?, ?", master_client_id, booking_month)  
          
