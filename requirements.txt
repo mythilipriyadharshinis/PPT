@@ -1,0 +1,8 @@
+flask
+pandas
+pyodbc
+schedule
+fastapi
+uvicorn
+matplotlib
+python-pptx
